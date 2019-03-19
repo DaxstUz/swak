@@ -38,6 +38,9 @@ dependencies {
     implementation 'org.chromium.net:cronet-embedded:66.3352.3-alpha'
 
     //xutils框架引入
-    api 'org.xutils:xutils:3.5.0'
+    implementation 'org.xutils:xutils:3.5.0'
+    implementation 'com.makeramen:roundedimageview:2.2.1' //圆角
+    implementation 'com.bigkoo:ConvenientBanner:2.1.4' //轮播图
+
 
 }

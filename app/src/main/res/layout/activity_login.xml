@@ -29,8 +29,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="16dp"
-            android:textColor="@color/colorText"
             android:text="@string/ad_sign_in"
+            android:textColor="@color/colorText"
             android:textStyle="bold" />
 
     </LinearLayout>
@@ -49,28 +49,45 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:background="@drawable/bg_login"
+            android:background="@drawable/bg_btn_blue"
             android:gravity="center"
             android:onClick="onclick"
             android:orientation="horizontal"
             android:padding="@dimen/widget_padding">
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="@dimen/radius_login"
-                android:src="@mipmap/weixin" />
 
             <TextView
                 style="?android:textAppearanceLarge"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="@string/weixin_sign"
+                android:text="@string/str_login"
                 android:textColor="@color/colorWhite"
                 android:textStyle="bold" />
 
         </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="登录即代表您已同意" />
+
+        <TextView
+            android:id="@+id/tv_layer"
+            android:autoLink="all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="《中华人民共和国保护法》"
+            android:textStyle="bold" />
 
     </LinearLayout>
 

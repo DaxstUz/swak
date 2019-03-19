@@ -3,7 +3,8 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
 
-    <dimen name="radius_login">16dp</dimen>
+    <dimen name="radius_login">6dp</dimen>
 
     <dimen name="widget_padding">10dp</dimen>
+
 </resources>

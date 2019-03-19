@@ -65,14 +65,11 @@ public class HomeActivity extends FragmentActivity {
 
     private void initTabView() {
 
-
         tabhost = findViewById(R.id.tabhost);
-
         tabhost.setup();
 
         for (int i = 0; i < TABNAME.length; i++) {
             TabHost.TabSpec tabview = tabhost.newTabSpec(TABNAME[i]);
-
             MyTabView tabviewvideo = new MyTabView(this);
             tabviewvideo.setText(TABNAME[i]);
             tabviewvideo.setIcon(TABICONS[i]);
