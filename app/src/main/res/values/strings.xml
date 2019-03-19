@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">湖南政务</string>
 
+    <string name="title_activity_login">Sign in</string>
+
     <string name="ad_sign_in">登录钱袋视频 领取现金红包</string>
     <string name="weixin_sign">微信登录</string>
 </resources>
